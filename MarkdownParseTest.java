@@ -93,7 +93,7 @@ public class MarkdownParseTest {
             MarkdownParse.getLinks(testFileContents) );
     }
 
-    /*
+    
     @Test
     public void getLinksTest9() throws IOException{
         Path testFile9 = Path.of("test-file9.md");
@@ -102,6 +102,4 @@ public class MarkdownParseTest {
         assertEquals(List.of("google.com"),
             MarkdownParse.getLinks(testFileContents));
     }
-
-    */
 }
